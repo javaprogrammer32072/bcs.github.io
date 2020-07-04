@@ -1,0 +1,116 @@
+body
+{
+	margin: 0;
+	padding: 0;
+	background: url(../pic/background.jpg);
+	background-position: center;
+	background-size: cover;
+}
+.login-box
+{
+	width: 300px;
+	height: 550px;
+	background:rgba(0,0,0,0.6);
+	color: white;
+	position: absolute;
+	left: 50%;
+	top: 52%;
+	transform: translate(-50%,-50%);
+	box-sizing: border-box;
+}
+.logo
+{
+	height: 100px;
+	width: 100px;
+	border-radius: 50%;
+	position: absolute;
+	top: -10%;
+	align-items: center;
+	left: 32%;
+}
+.heading
+{
+	margin: 0;
+	padding:37px;
+	text-align: center;
+}
+.login-box
+{
+	margin: 0;
+	padding: 0;
+	font-weight: bold;
+}
+.login-box input
+{
+	width: 60%;
+	height: 35px;
+	margin-left: 50px;
+}
+.login-box p
+{
+	margin-top: 3px;
+	margin-left: 50px;
+	font-size: 20px;
+}
+.login-box input[type="number"],input[ type="password"],input[ type="email"]
+{
+	border-radius: 50px;
+	background:transparent;
+	outline: none;
+	border-bottom: 1.5px solid;
+	border-top: 1.5px solid;
+	border-left: 1.5px solid;
+	border-right: 1.5px solid;
+	border-color: green;
+	cursor: text;
+	color: white;
+	text-align: center;
+	font-size: 18px;
+}
+.login-box input[type="number"]:focus,input[ type="password"]:focus,input[ type="email"]:focus
+{
+	width: 80%;
+}
+.login-box input[type="submit"]
+{
+	width: 75%;
+	font-size: 20px;
+	margin-left: 40px;
+	margin-top: 30px;
+	background:transparent;
+	color: white;
+	border-radius: 50px;
+}
+.login-box input[type="submit"]:focus
+{
+	width: 60%;
+	background-color: blue;
+}
+.login-box a :hover
+{
+	margin: 20px;
+	margin-top: 30px;
+	color: red;
+	background-color: red;
+}
+#teacher
+{
+	font-size: 20px;
+	text-decoration: none;
+	color: white;
+	text-align: center;
+	padding-left: 50px;
+}
+#teacher :hover
+{
+	padding-left: 50px;
+	transition: all 0.7s;
+	color: yellow;
+	text-decoration: overline;
+}
+#student :focus
+{
+	color: yellow;
+	padding-left: 50px;
+	text-decoration-style: solid;
+}
